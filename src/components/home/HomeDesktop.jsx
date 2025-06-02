@@ -103,7 +103,7 @@ const HomeDesktop = () => {
         entity: 'MSL',
         type: [
           'Strategy & Insights',
-          'Digital & Social Media',
+          'Digital & Social',
           'Media & Crisis',
         ],
         sector: 'Sector1',

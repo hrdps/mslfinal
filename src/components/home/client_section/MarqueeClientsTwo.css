@@ -1,0 +1,130 @@
+.scrolling-text-c-2 {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 300%;
+  pointer-events: none;
+  filter: invert(100%);
+  mix-blend-mode: color-dodge;
+}
+
+.scrolling-text-c-2 > .rail2-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(150deg);
+}
+.scrolling-text-c-2 > .rail2-2 > h4 {
+  white-space: nowrap;
+}
+
+.scrolling-text-c-2 > .rail2-2 > h4 > img {
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .scrolling-text-c-2 {
+    width: 100vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 70px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 -20px;
+  }
+  .scrolling-text-c-2 > .rail2-2 {
+    transform: rotate(180deg);
+  }
+  .scrolling-text-c-2 > .rail2-2 > h4 > img {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 648px) {
+  .scrolling-text-c-2 {
+    width: 100vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 50px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 0px;
+  }
+  .scrolling-text-c-2 > .rail2-2 {
+    transform: rotate(180deg);
+  }
+  .scrolling-text-c-2 > .rail2-2 > h4 > img {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 649px) and (max-width: 768px) {
+  .scrolling-text-c-2 {
+    width: 70vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 50px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .scrolling-text-c-2 {
+    width: 90vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 50px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 50px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1280px) {
+  .scrolling-text-c-2 {
+    width: 90vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 50px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 10px;
+  }
+  .scrolling-text-c-2 > .rail2-2 > h4 > img {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1550px) {
+  .scrolling-text-c-2 {
+    width: 80vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 90px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 -40px;
+  }
+  .scrolling-text-c-2 > .rail2-2 > h4 > img {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1551px) {
+  .scrolling-text-c-2 {
+    width: 80vw;
+  }
+  .scroll_img-c-1 {
+    margin: 0 90px;
+  }
+  .scroll_h4-c-2 {
+    margin: 0 -20px;
+  }
+  .scrolling-text-c-2 > .rail2-2 > h4 > img {
+    width: 50%;
+  }
+}

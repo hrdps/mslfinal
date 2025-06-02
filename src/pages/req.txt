@@ -1,0 +1,20 @@
+Homepage
+
+//Hero
+////Character limits for the headings
+////Qoute for the Hero?
+////
+
+
+//Sitemap
+///Homepage section, what it leads
+pages, content, 
+
+requirements
+
+pub group logo
+
+re arrange the sections
+
+awards like auto scroll
+

@@ -892,7 +892,9 @@ const HomeDesktop = () => {
         justifyContent={'center'}>
         <Heading
           py={4}
-          bgColor={'red'}
+          bg={'url(./assets/cta.gif)'}
+          bgSize={'cover'}
+          bgPos={'center center'}
           w={'100%'}
           borderRadius={10}
           color={'white'}

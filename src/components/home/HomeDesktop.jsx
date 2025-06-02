@@ -1147,7 +1147,7 @@ const HomeDesktop = () => {
                 }}
                 color={'#FF8C5F'}
                 borderColor={'#FF8C5F'}>
-                Learn More
+                Submit
               </Button>
             </Fieldset.Root>
           </VStack>
